@@ -1,0 +1,1 @@
+ALTER TABLE campaign ADD COLUMN IF NOT EXISTS saved_list INTEGER[];

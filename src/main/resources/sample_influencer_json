@@ -1,0 +1,61 @@
+========
+Get FeedsData
+======
+{
+    "body": {
+        "influencerId": -1
+    }
+}
+
+========
+Exception Response - get feedsdata
+======
+{
+    "uri": null,
+    "executionTime": 0,
+    "status": {
+        "code": "INF4001",
+        "msg": "Invalid Influencer Id"
+    },
+    "body": null
+}
+========
+Response - get feedsdata
+======
+{
+    "uri": null,
+    "executionTime": 0,
+    "status": {
+       "code": "INF1001",
+        "msg": "Feeds Data Fetch Successful"
+    },
+    "body": {
+        "feedsDataList": [
+            {
+                "id": 111172,
+                "feedsId": "404055",
+                "influencerId": 0,
+                "networkId": 0,
+                "description": null,
+                "title": null,
+                "channelTitle": null,
+                "category": null,
+                "publishAt": null,
+                "viewCount": 0,
+                "likeCount": 0,
+                "dislikeCount": 0,
+                "favoriteCount": 0,
+                "commentCount": 0,
+                "location": null,
+                "hashtags": null,
+                "mentions": null,
+                "type": null,
+                "displayUrl": null,
+                "videoUrl": null,
+                "isVideo": null,
+                "engagementRate": 0
+            }
+            		  ]
+    }
+}
+

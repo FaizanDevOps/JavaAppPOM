@@ -1,0 +1,3 @@
+ALTER TABLE brand DROP COLUMN IF EXISTS agency_id;
+
+ALTER TABLE company DROP COLUMN IF EXISTS agency_id;
